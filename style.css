@@ -1,0 +1,238 @@
+@import url('https://fonts.cdnfonts.com/css/star-jedi');
+*{
+  padding:0;
+  margin:0;
+}
+html {
+  box-sizing: border-box;
+}
+:root{
+  --page-height:690px;
+  --yellow-color:#FFE807;
+  --main-blue:rgb(75, 213, 238);
+  --font-family:'Star Jedi Hollow', sans-serif;
+  --h2-size:2.5em;
+  --h4-size:2em;
+  --text-size:1em;
+}
+body{
+  width:100%;
+  margin:0;
+  font-family: 'Star Jedi Hollow', sans-serif;
+/*   background:url(http://wallpapercave.com/wp/pEeUsp1.jpg); */
+  line-height: 1.5;
+}
+
+
+
+/* header */
+#head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #FFE807;
+  background:rgba(0,0,0,0.3);
+ background:url(http://wallpapercave.com/wp/pEeUsp1.jpg);
+/*   font-family: 'Star Jedi Hollow', sans-serif; */
+  position:fixed;
+  width:100%;
+}
+#right-side{
+  display:flex;
+}
+#right-side li {
+  list-style-type:none;
+  padding:20px;
+}
+#right-side li a{
+  text-decoration:none;
+  color:var(--yellow-color);
+}
+#logo{
+  width:100px;
+}
+
+/* main */
+#text{
+  color:var(--main-blue);
+  font-weight: 400;
+  font-size: 300%;
+  font-family:normal;
+}
+.first-page{
+  height:705px;
+  display:flex;
+  justify-content:center;
+  align-items:center;            
+  background:url(http://wallpapercave.com/wp/pEeUsp1.jpg); 
+}
+#main-logo{
+  width:500px;
+}
+#right-side li a:hover{
+  color:var(--main-blue);
+}
+
+/* second */
+.second-page{ 
+background:url(https://i.hizliresim.com/3ymgtq5.jpg);
+background-position: center center;
+background-size: cover;
+  height:var(--page-height);
+  font-family:var(--font-family);
+}
+.images{
+  display:flex;
+  justify-content:center;
+}
+#image-text{
+  color:white;
+  text-align:center;
+  font-size:1.2em;
+  font-weight:700;
+}
+#image-text:hover{
+  color:#3a86ff;
+  cursor: grab;
+}
+#second-image{
+  width:200px;
+  height:300px;
+  padding:15px;
+}
+#jedi{
+  color:white;
+  font-size:var(--text-size);
+  font-weight:700;
+}
+.title{
+  font-size:var(--h2-size);
+  color:var(--yellow-color);
+  display:flex;
+  justify-content:center;
+}
+.text-container{
+  text-align:center;
+  padding:20px;
+}
+.second-footer{
+  height:30px;
+  padding:5px;
+  padding-right:25px;
+  display:flex;
+  justify-content:flex-end;
+}
+#second-button{
+  width:60px;
+  text-decoration:none;
+  font-size:1.2em;
+  color:#3a86ff;
+  font-weight:700;
+}
+
+
+
+/* third-page */
+
+.third-page{
+  height:var(--page-height);
+  background:url(https://i.hizliresim.com/1gq3h2s.png);
+  background-position: center center;
+background-size: cover;
+}
+#third-image{
+  width:200px;
+  height:300px;
+  padding:15px;
+}
+#sith{
+  color:white;
+  font-size:var(--text-size);
+  font-weight:700;
+}
+.text-container2{
+  padding:20px;
+  text-align:center;
+}
+#image-text2{
+  color:white;
+  text-align:center;
+  font-size:1.2em;
+  font-weight:700;
+}
+#image-text2:hover{
+  color:red;
+  cursor: grab;
+}
+.third-footer{
+  height:30px;
+  padding:5px;
+  padding-right:25px;
+  display:flex;
+  justify-content:flex-end;
+}
+#third-button{
+  width:60px;
+  text-decoration:none;
+  font-size:1.2em;
+  color:red;
+  font-weight:700;
+}
+
+/* fourth */
+
+.fourth-page{
+  height:var(--page-height);
+  background:url(http://wallpapercave.com/wp/pEeUsp1.jpg);
+}
+#fourth-title{
+  color:var(--main-blue);
+  font-weight: 400;
+  font-size: 300%;
+  line-height: 46.4px;
+  font-family: 'Days One';
+  text-align:center;
+}
+.fourth-main{
+  display:flex;
+  justify-content:center;
+}
+#episodes{
+  width:200px;
+  height:300px;
+}
+.fourth-episode{
+  display:inline-block;
+  text-align:center;
+  padding:15px;
+}
+#episode-text{
+  color:white;
+  font-size:1.2em;
+  font-weight:700;
+}
+#episode-text:hover{
+  color:var(--main-blue);
+  cursor: grab;
+}
+.fourth-footer{
+  height:100px;
+  padding:5px;
+  padding-right:25px;
+  display:flex;
+  justify-content:flex-end;
+  align-items:flex-end;
+}
+#fourth-button{
+  width:60px;
+  text-decoration:none;
+  font-size:1.2em;
+  color:var(--yellow-color);
+  font-weight:700;
+}
+#end-text{
+  font-weight:700;
+  font-family:normal;
+  color:grey;
+  text-align:center;
+}
